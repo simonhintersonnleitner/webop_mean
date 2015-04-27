@@ -35,6 +35,10 @@
   ],
   "author": "Hannes Moser <hannes@impossiblearts.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliias/mean/issues"
+  },
+  "homepage": "https://github.com/eliias/mean",
   "devDependencies": {
     "browserify": "^9.0.3",
     "browserify-shim": "^3.8.3",
