@@ -26,7 +26,7 @@ var typing = false;
 var lastTypingTime;
 var $currentInput = $usernameInput.focus();
 
-var socket = io();
+var socket = io.connect('http://webop.monkeywglasses.com', {path: '/mean/socket.io'});
 
 // Log a message
 function log( message, options ) {
